@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Http;
+﻿using System.Web.Http;
 
-namespace EohTest.Service.Crud
+namespace EOHTest.Service.Crud
 {
     public static class WebApiConfig
     {

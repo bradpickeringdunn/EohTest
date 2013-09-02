@@ -19,11 +19,11 @@
         this.SuccessfulDeletion = function(data){
             dropdownElement = $(".deleteCandidates");
             dropdownElement.find('option[value=' + candidateId + ']').remove();
-            alert("The candidae has been deleted");
+            alert("The candidate has been deleted");
         }
 
         this.FailedDeletion = function (xhr, data) {
-            alert("The candidae has been deleted");
+            alert("The candidate has been deleted");
         }
 
     }

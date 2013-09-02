@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
+﻿using EOHTest.Data.Crud.Interfaces;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Test.Data.Crud.Interfaces;
-using Test.Data.Crud.Mappings;
 
-namespace Test.Data.Crud
+namespace EOHTest.Data.Crud
 {
     public class CrudDbContext : DbContext, IUnitOfWork
     {
@@ -25,14 +18,7 @@ namespace Test.Data.Crud
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
-
-    //        modelBuilder.Entity<Models.Person>()
-    //.HasKey(t => t.PersonId);
-
-    //        modelBuilder.Entity<Models.Employee>()
-    //            .HasRequired(t => t.Person)
-    //            .WithRequiredPrincipal();
-
+ 
         }
 
         void IUnitOfWork.SaveChanges()

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace EohTest.Ui.Employment.Dto
+namespace EOHTest.Ui.Web.Dto
 {
     public class Person
     {

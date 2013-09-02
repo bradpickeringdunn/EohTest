@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace EohTest.Ui.Employment.Controllers
+namespace EOHTest.Ui.Web.Controllers
 {
     public class EmployeeController : Controller
     {
@@ -29,7 +29,7 @@ namespace EohTest.Ui.Employment.Controllers
             try
             {
                 //int personId = int.Parse(Request.Form["candidates"]);
-                new EohTest.Service.Crud.Controllers.EmploymentController().AddEmployee(candidatesId);
+                new EOHTest.Service.Crud.Controllers.EmploymentController().AddEmployee(candidatesId);
                 return RedirectToAction("Index");
             }
             catch (DuplicateWaitObjectException ex)

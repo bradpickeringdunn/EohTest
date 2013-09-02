@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace EohTest.Service.Crud
+namespace EOHTest.Service.Crud
 {
     public class BundleConfig
     {

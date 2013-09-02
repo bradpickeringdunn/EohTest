@@ -21,8 +21,8 @@ $(document).ready(function () {
         }
 
         this.SuccessfulDelete = function(data){
-            alert("The employee has ben dismissed");
-            
+            alert("The employee has been dismissed");
+            $(".employeeList option[value="+ employeeId + "]").remove();
         }
 
         this.FailedDelete = function (xhr, data) {

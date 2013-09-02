@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace EohTest.Ui.Employment.Controllers
+namespace EOHTest.Ui.Web.Controllers
 {
     public class HrController : Controller
     {

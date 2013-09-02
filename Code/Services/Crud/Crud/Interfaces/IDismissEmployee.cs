@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EohTest.Service.Crud
+namespace EOHTest.Service.Crud
 {
     interface IDismissEmployee : IDisposable
     {

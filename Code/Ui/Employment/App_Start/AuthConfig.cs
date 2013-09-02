@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Web.WebPages.OAuth;
-using EohTest.Ui.Employment.Models;
+using EOHTest.Ui.Web.Models;
 
-namespace EohTest.Ui.Employment
+namespace EOHTest.Ui.Web
 {
     public static class AuthConfig
     {

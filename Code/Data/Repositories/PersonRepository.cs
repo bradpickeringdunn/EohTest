@@ -1,12 +1,10 @@
-﻿using System;
+﻿using EOHTest.Data.Crud.Interfaces;
+using EOHTest.Data.Crud.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Test.Data.Crud.Interfaces;
-using Test.Data.Crud.Models;
 
-namespace Test.Data.Crud.Repositories
+namespace EOHTest.Data.Crud.Repositories
 {
     public class PersonRepository : BaseRepository, IPersonRepository
     {
@@ -40,10 +38,13 @@ namespace Test.Data.Crud.Repositories
             {
                 var person = (from p in this.Context.Person
                               where p.PersonId == personId
-                              select p).First();
+                              select p).FirstOrDefault();
 
-                this.Context.Person.Remove(person);
-                Context.SaveChanges();
+                if (person != null)
+                {
+                    this.Context.Person.Remove(person);
+                    Context.SaveChanges();
+                }
             }
             catch (Exception ex)
             {

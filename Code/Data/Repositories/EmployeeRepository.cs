@@ -1,13 +1,10 @@
-﻿using System;
+﻿using EOHTest.Data.Crud.Interfaces;
+using EOHTest.Data.Crud.Models;
+using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Test.Data.Crud.Interfaces;
-using Test.Data.Crud.Models;
 
-namespace Test.Data.Crud.Repositories
+namespace EOHTest.Data.Crud.Repositories
 {
     public class EmployeeRepository : BaseRepository, IEmployeeRepository
     {

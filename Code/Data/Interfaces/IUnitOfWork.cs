@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Test.Data.Crud.Interfaces
+﻿
+namespace EOHTest.Data.Crud.Interfaces
 {
     public interface IUnitOfWork
     {

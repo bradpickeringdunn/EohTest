@@ -1,13 +1,13 @@
-using System.Web.Mvc;
+using EOHTest.Data.Crud;
+using EOHTest.Data.Crud.Interfaces;
+using EOHTest.Service.Crud.Classes;
 using Munq.MVC3;
-using Test.Data.Crud.Interfaces;
-using Test.Data.Crud;
-using EohTest.Service.Crud.Classes;
+using System.Web.Mvc;
 
 [assembly: WebActivator.PreApplicationStartMethod(
-	typeof(EohTest.Service.Crud.App_Start.MunqMvc3Startup), "PreStart")]
+	typeof(EOHTest.Service.Crud.App_Start.MunqMvc3Startup), "PreStart")]
 
-namespace EohTest.Service.Crud.App_Start {
+namespace EOHTest.Service.Crud.App_Start {
 	public static class MunqMvc3Startup {
 		public static void PreStart() {
 			DependencyResolver.SetResolver(new MunqDependencyResolver());

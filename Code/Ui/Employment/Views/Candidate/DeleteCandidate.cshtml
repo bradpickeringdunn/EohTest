@@ -1,4 +1,4 @@
-﻿@model EohTest.Ui.Employment.Models.CandidateModel
+﻿@model EOHTest.Ui.Web.Models.CandidateModel
 
 @{
        ViewBag.Title = "Candidate";
@@ -7,9 +7,8 @@
 
 <script src="~/Scripts/Pages/DeleteCandidates.js" type="text/javascript"></script>
 
-<h2>Candidate</h2>
-<a href="/Candidate/delete" class="deleteCandidate" rel="Back to candidates">Back to candidates</a>
-<a href="/Candidate/delete" class="deleteCandidate" rel="Deletes an employee">Create a candidate</a>
+<h2>Delete Candidate</h2>
+<a href="/Candidate/Index" class="deleteCandidate" rel="Back to candidates">Back to candidates</a>
 <form action="/candidate/RemoveCandidate" method="post">
     <div>
         <select name="candidates" class="deleteCandidates">

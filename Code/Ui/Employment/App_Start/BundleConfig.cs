@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace EohTest.Ui.Employment
+namespace EOHTest.Ui.Web
 {
     public class BundleConfig
     {

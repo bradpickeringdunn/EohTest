@@ -2,9 +2,9 @@ using System.Web.Mvc;
 using Munq.MVC3;
 
 [assembly: WebActivator.PreApplicationStartMethod(
-	typeof(EohTest.Ui.Employment.App_Start.MunqMvc3Startup), "PreStart")]
+	typeof(EOHTest.Ui.Web.App_Start.MunqMvc3Startup), "PreStart")]
 
-namespace EohTest.Ui.Employment.App_Start {
+namespace EOHTest.Ui.Web.App_Start {
 	public static class MunqMvc3Startup {
 		public static void PreStart() {
 			DependencyResolver.SetResolver(new MunqDependencyResolver());

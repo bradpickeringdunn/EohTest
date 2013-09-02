@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Helpers;
 
-namespace EohTest.Ui.Employment.Models
+namespace EOHTest.Ui.Web.Models
 {
     public class EmployeeModel
     {
@@ -25,14 +25,14 @@ namespace EohTest.Ui.Employment.Models
 
         public void GetEmployees()
         {
-            var employees = new EohTest.Service.Crud.Controllers.EmploymentController().GetEmployees();
+            var employees = new EOHTest.Service.Crud.Controllers.EmploymentController().GetEmployees();
             _employees = Json.Decode<List<Dto.Employee>>(employees)
                 .FindAll(e => e.Terminated == null);
         }
 
         internal void DismissEmployee(int employeeId)
         {
-            new EohTest.Service.Crud.Controllers.EmploymentController().DismissEmployee(employeeId);
+            new EOHTest.Service.Crud.Controllers.EmploymentController().DismissEmployee(employeeId);
         }
     }
 }

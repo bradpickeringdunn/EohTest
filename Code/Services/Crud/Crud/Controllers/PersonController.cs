@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using EOHTest.Data.Crud.Models;
+using System;
 using System.Web.Helpers;
 using System.Web.Http;
-using Test.Data.Crud.Models;
 
-namespace EohTest.Service.Crud.Controllers
+namespace EOHTest.Service.Crud.Controllers
 {
     public class PersonController : ApiController
     {
         [HttpGet]
         public string GetPeople()
         {
-            return Json.Encode(new Classes.GetPerson(new Test.Data.Crud.CrudDbContext()).Execute());
+            return Json.Encode(new Classes.GetPerson(new EOHTest.Data.Crud.CrudDbContext()).Execute());
         }
 
         [HttpPost]
@@ -27,7 +23,7 @@ namespace EohTest.Service.Crud.Controllers
                 LastName = lastName
             };
 
-            new Classes.AddPerson(new Test.Data.Crud.CrudDbContext()).Execute(person);
+            new Classes.AddPerson(new EOHTest.Data.Crud.CrudDbContext()).Execute(person);
         }
 
         [HttpDelete]

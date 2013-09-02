@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace EohTest.Ui.Employment.Controllers
+namespace EOHTest.Ui.Web.Controllers
 {
     public class CandidateController : Controller
     {
@@ -45,7 +45,7 @@ namespace EohTest.Ui.Employment.Controllers
         [HttpPost]
         public ActionResult Create(string firstname, string lastName, string dateOfBirth)
         {
-            new EohTest.Service.Crud.Controllers.PersonController().Create(firstname, lastName, dateOfBirth);
+            new EOHTest.Service.Crud.Controllers.PersonController().Create(firstname, lastName, dateOfBirth);
 
             var candidates = new Models.CandidateModel();
             return View("Index", candidates);

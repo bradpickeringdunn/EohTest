@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace EohTest.Ui.Employment
+namespace EOHTest.Ui.Web
 {
     public class RouteConfig
     {

@@ -4,9 +4,9 @@ using System.Data.Entity.Infrastructure;
 using System.Threading;
 using System.Web.Mvc;
 using WebMatrix.WebData;
-using EohTest.Ui.Employment.Models;
+using EOHTest.Ui.Web.Models;
 
-namespace EohTest.Ui.Employment.Filters
+namespace EOHTest.Ui.Web.Filters
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
     public sealed class InitializeSimpleMembershipAttribute : ActionFilterAttribute

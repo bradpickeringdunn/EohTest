@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using EOHTest.Data.Crud.Interfaces;
+using System;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Test.Data.Crud.Interfaces;
 
-namespace Test.Data.Crud.Repositories
+namespace EOHTest.Data.Crud.Repositories
 {
     public class BaseRepository
     {

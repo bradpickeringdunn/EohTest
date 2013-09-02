@@ -1,11 +1,7 @@
-﻿using System;
+﻿using EOHTest.Data.Crud.Models;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Test.Data.Crud.Models;
 
-namespace Test.Data.Crud.Interfaces
+namespace EOHTest.Data.Crud.Interfaces
 {
     public interface IPersonRepository
     {

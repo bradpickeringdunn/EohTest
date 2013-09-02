@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using Test.Data.Crud.Interfaces;
-using Test.Data.Crud.Models;
+﻿using EOHTest.Data.Crud.Interfaces;
 
-namespace EohTest.Service.Crud.Classes
+namespace EOHTest.Service.Crud.Classes
 {
     public class UpdateEmployee : IUpdateEmployee
     {
@@ -18,7 +13,7 @@ namespace EohTest.Service.Crud.Classes
 
         public void Execute(int PersonId)
         {
-            new Test.Data.Crud.Repositories.EmployeeRepository(_context).UpdateEmployee(PersonId);
+            new EOHTest.Data.Crud.Repositories.EmployeeRepository(_context).UpdateEmployee(PersonId);
         }
 
         public void Dispose()

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Helpers;
 
-namespace EohTest.Ui.Employment.Models
+namespace EOHTest.Ui.Web.Models
 {
     public class CandidateModel
     {
@@ -24,7 +24,7 @@ namespace EohTest.Ui.Employment.Models
 
         internal void GetCandidates()
         {
-            _candidates =  Json.Decode<IEnumerable<Dto.Person>>(new EohTest.Service.Crud.Controllers.PersonController().GetPeople());
+            _candidates =  Json.Decode<IEnumerable<Dto.Person>>(new EOHTest.Service.Crud.Controllers.PersonController().GetPeople());
         }
 
         internal void DeleteCandidate(int id)

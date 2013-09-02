@@ -1,11 +1,8 @@
-﻿using System;
+﻿using EOHTest.Data.Crud.Interfaces;
+using EOHTest.Data.Crud.Models;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using Test.Data.Crud.Interfaces;
-using Test.Data.Crud.Models;
 
-namespace EohTest.Service.Crud.Classes
+namespace EOHTest.Service.Crud.Classes
 {
     public class GetEmployee : IGetEmployee
     {
@@ -18,7 +15,7 @@ namespace EohTest.Service.Crud.Classes
 
         public IEnumerable<Employee> Execute()
         {
-            return new Test.Data.Crud.Repositories.EmployeeRepository(_cotext).RetrieveEmployees();
+            return new EOHTest.Data.Crud.Repositories.EmployeeRepository(_cotext).RetrieveEmployees();
         }
 
         public void Dispose()
