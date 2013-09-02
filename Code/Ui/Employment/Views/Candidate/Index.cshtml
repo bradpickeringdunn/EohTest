@@ -1,0 +1,24 @@
+﻿@model EohTest.Ui.Employment.Models.CandidateModel
+
+@{
+       ViewBag.Title = "Candidate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Candidate</h2>
+<a href="/Employee/Index" class="backToEmployee" rel="Back to Employee">Back to Employee</a>
+<a href="/Candidate/Create" class="addCandidates" rel="Add candidates">Add Candidates</a>
+<a href="/Candidate/DeleteCandidate" class="deleteCandidates" rel="Delete candidates">Delete Candidates</a>
+<form action="~/Employee/create" method="post">
+    <div>
+        <select name="candidates" class="employeeSelection">
+            @foreach (var candidate in Model.Candidates.ToList())
+            {
+                <option value="@candidate.PersonId" >@candidate.FirstName  @candidate.LastName</option>
+            }
+        </select>
+    </div>
+    <input type="submit" name="addEmployee" title="Add an employee" value="Add Employee" />
+</form>
+
+

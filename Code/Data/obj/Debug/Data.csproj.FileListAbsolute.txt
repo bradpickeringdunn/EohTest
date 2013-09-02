@@ -1,0 +1,23 @@
+C:\PersonalRepository\CRUDTest\Data\bin\Debug\Test.Data.Crud.dll.config
+C:\PersonalRepository\CRUDTest\Data\bin\Debug\Test.Data.Crud.dll
+C:\PersonalRepository\CRUDTest\Data\bin\Debug\Test.Data.Crud.pdb
+C:\PersonalRepository\CRUDTest\Data\bin\Debug\EntityFramework.dll
+C:\PersonalRepository\CRUDTest\Data\bin\Debug\EntityFramework.xml
+C:\PersonalRepository\CRUDTest\Data\obj\Debug\Test.Data.Crud.dll
+C:\PersonalRepository\CRUDTest\Data\obj\Debug\Test.Data.Crud.pdb
+C:\PersonalRepository\CRUDTest 2\CRUDTest\Data\bin\Debug\Test.Data.Crud.dll.config
+C:\PersonalRepository\CRUDTest 2\CRUDTest\Data\bin\Debug\Test.Data.Crud.dll
+C:\PersonalRepository\CRUDTest 2\CRUDTest\Data\bin\Debug\Test.Data.Crud.pdb
+C:\PersonalRepository\CRUDTest 2\CRUDTest\Data\bin\Debug\EntityFramework.dll
+C:\PersonalRepository\CRUDTest 2\CRUDTest\Data\bin\Debug\EntityFramework.xml
+C:\PersonalRepository\CRUDTest 2\CRUDTest\Data\obj\Debug\Test.Data.Crud.dll
+C:\PersonalRepository\CRUDTest 2\CRUDTest\Data\obj\Debug\Test.Data.Crud.pdb
+C:\PersonalRepository\CRUDTest 2\CRUDTest\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\PersonalRepository\CRUDTest\CRUDTest\CRUDTest\Data\bin\Debug\Test.Data.Crud.dll.config
+C:\PersonalRepository\CRUDTest\CRUDTest\CRUDTest\Data\bin\Debug\Test.Data.Crud.dll
+C:\PersonalRepository\CRUDTest\CRUDTest\CRUDTest\Data\bin\Debug\Test.Data.Crud.pdb
+C:\PersonalRepository\CRUDTest\CRUDTest\CRUDTest\Data\bin\Debug\EntityFramework.dll
+C:\PersonalRepository\CRUDTest\CRUDTest\CRUDTest\Data\bin\Debug\EntityFramework.xml
+C:\PersonalRepository\CRUDTest\CRUDTest\CRUDTest\Data\obj\Debug\Test.Data.Crud.dll
+C:\PersonalRepository\CRUDTest\CRUDTest\CRUDTest\Data\obj\Debug\Test.Data.Crud.pdb
+C:\PersonalRepository\CRUDTest\CRUDTest\CRUDTest\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache

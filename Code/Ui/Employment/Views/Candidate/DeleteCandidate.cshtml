@@ -1,0 +1,24 @@
+﻿@model EohTest.Ui.Employment.Models.CandidateModel
+
+@{
+       ViewBag.Title = "Candidate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/Scripts/Pages/DeleteCandidates.js" type="text/javascript"></script>
+
+<h2>Candidate</h2>
+<a href="/Candidate/delete" class="createNewEmployee" rel="Create a new employee">Create a candidate</a>
+<form action="/candidate/RemoveCandidate" method="post">
+    <div>
+        <select name="candidates" class="deleteCandidates">
+            @foreach (var candidate in Model.Candidates.ToList())
+            {
+                <option value="@candidate.PersonId" >@candidate.FirstName  @candidate.LastName</option>
+            }
+        </select>
+    </div>
+    <input type="submit" name="deleteCandidate" title="Delete a candidate" value="Delete Candidate" />
+</form>
+
+
