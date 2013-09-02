@@ -63,7 +63,7 @@ namespace Test.Data.Crud.Repositories
 
             this.Context.Employee.Attach(employee);
             employee.Terminated = DateTime.Now;
-            this.Context.Entry(employee).State = System.Data.EntityState.Modified;
+            this.Context.Entry(employee).State = System.Data.Entity.EntityState.Modified;
 
             this.Context.SaveChanges();
         }

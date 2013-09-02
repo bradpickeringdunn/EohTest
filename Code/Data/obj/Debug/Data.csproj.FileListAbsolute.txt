@@ -21,3 +21,13 @@ C:\PersonalRepository\CRUDTest\CRUDTest\CRUDTest\Data\bin\Debug\EntityFramework.
 C:\PersonalRepository\CRUDTest\CRUDTest\CRUDTest\Data\obj\Debug\Test.Data.Crud.dll
 C:\PersonalRepository\CRUDTest\CRUDTest\CRUDTest\Data\obj\Debug\Test.Data.Crud.pdb
 C:\PersonalRepository\CRUDTest\CRUDTest\CRUDTest\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Brad\Documents\EohTest\Code\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Brad\Documents\EohTest\Code\Data\bin\Debug\Test.Data.Crud.dll.config
+C:\Users\Brad\Documents\EohTest\Code\Data\bin\Debug\Test.Data.Crud.dll
+C:\Users\Brad\Documents\EohTest\Code\Data\bin\Debug\Test.Data.Crud.pdb
+C:\Users\Brad\Documents\EohTest\Code\Data\bin\Debug\EntityFramework.dll
+C:\Users\Brad\Documents\EohTest\Code\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Brad\Documents\EohTest\Code\Data\bin\Debug\EntityFramework.xml
+C:\Users\Brad\Documents\EohTest\Code\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Brad\Documents\EohTest\Code\Data\obj\Debug\Test.Data.Crud.dll
+C:\Users\Brad\Documents\EohTest\Code\Data\obj\Debug\Test.Data.Crud.pdb
