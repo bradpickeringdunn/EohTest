@@ -15,34 +15,22 @@ namespace EohTest.Ui.Employment.Controllers
             return View(employee);
         }
 
-        [HttpPut]
-        public ActionResult DismissEmployee(int id)
+        [HttpPost]
+        public ActionResult DismissEmployee(int employeId)
         {
-            int employeeId;
-
-            if (Request.IsAjaxRequest())
-            {
-                employeeId = id;
-            }
-            else
-            {
-                string employee = "employees";
-                employeeId = int.Parse(Request.Form[employee].ToString());
-            }
-                
-            new Models.EmployeeModel().DismissEmployee(employeeId);
+            new Models.EmployeeModel().DismissEmployee(employeId);
 
             Index();
             return View("Index");
         }
 
         [HttpPost]
-        public ActionResult Create()
+        public ActionResult Create(int candidatesId)
         {
             try
             {
-                int personId = int.Parse(Request.Form["candidates"]);
-                new EohTest.Service.Crud.Controllers.EmploymentController().AddEmployee(personId);
+                //int personId = int.Parse(Request.Form["candidates"]);
+                new EohTest.Service.Crud.Controllers.EmploymentController().AddEmployee(candidatesId);
                 return RedirectToAction("Index");
             }
             catch (DuplicateWaitObjectException ex)

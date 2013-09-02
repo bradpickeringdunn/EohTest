@@ -6,7 +6,7 @@ $(document).ready(function () {
 
         var employeeId = $(".employeeList").val();
 
-        new Ajax().Call("PUT", "/Employee/DismissEmployee", { Id: employeeId });
+        new Ajax().Call("PUT", "/Employee/DismissEmployee", { employeId: employeeId });
 
 
         e.preventDefault();

@@ -2,16 +2,15 @@
 
     $("form").submit(function (e) {
 
-        new DeleteCandidate().Delete();
+        new CreateCandidate()
 
         e.preventDefault();
     });
 
     function DeleteCandidate() {
 
-        this.Delete = function () {
-            var candidateId = $(".deleteCandidates").val();
-            new Ajax().Call("POST", "/candidate/RemoveCandidate", { id: candidateid }, this.SuccessfulDeletion(), this.FailedDeletion());
+        this.Create = function () {
+            $("form").submit();
         }
 
         this.SuccessfulDeletion = function(data){

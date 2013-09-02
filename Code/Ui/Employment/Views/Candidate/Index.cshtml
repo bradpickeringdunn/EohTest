@@ -11,7 +11,7 @@
 <a href="/Candidate/DeleteCandidate" class="deleteCandidates" rel="Delete candidates">Delete Candidates</a>
 <form action="~/Employee/create" method="post">
     <div>
-        <select name="candidates" class="employeeSelection">
+        <select name="candidatesId" class="employeeSelection">
             @foreach (var candidate in Model.Candidates.ToList())
             {
                 <option value="@candidate.PersonId" >@candidate.FirstName  @candidate.LastName</option>
