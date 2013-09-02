@@ -43,16 +43,8 @@ namespace EohTest.Ui.Employment.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(string firstname, string lastName, string dateOfBirth)
         {
-            string firstname = "firstName";
-            string lastName = "lastName";
-            string dateOfBirth = "dateOfBirth";
-
-            firstname = Request.Form[firstname];
-            lastName = Request.Form[lastName];
-            dateOfBirth = Request.Form[dateOfBirth];
-
             new EohTest.Service.Crud.Controllers.PersonController().Create(firstname, lastName, dateOfBirth);
 
             var candidates = new Models.CandidateModel();
