@@ -21,6 +21,7 @@
         
         this.CandidateAdded = function (date) {
             alert("The candidate has been added.");
+            window.location.href = "index";
         }
 
         this.ErrorCreatingCandidate = function (xhr, data) {

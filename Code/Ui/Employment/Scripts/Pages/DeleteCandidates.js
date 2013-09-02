@@ -13,7 +13,7 @@
 
         this.Delete = function () {
             candidateId = $(".deleteCandidates").val();
-            new Ajax().Call("POST", "/candidate/RemoveCandidate", { id: candidateid }, this.SuccessfulDeletion(), this.FailedDeletion());
+            new Ajax().Call("POST", "/candidate/RemoveCandidate", { id: candidateid }, this.SuccessfulDeletion, this.FailedDeletion);
         }
 
         this.SuccessfulDeletion = function(data){
