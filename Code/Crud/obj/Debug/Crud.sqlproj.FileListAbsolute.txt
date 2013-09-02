@@ -1,9 +1,0 @@
-C:\PersonalRepository\CRUDTest\Crud\bin\Debug\Crud.dacpac
-C:\PersonalRepository\CRUDTest\Crud\bin\Debug\Crud.dll
-C:\PersonalRepository\CRUDTest\Crud\bin\Debug\Crud.pdb
-C:\PersonalRepository\CRUDTest\Crud\obj\Debug\Model.xml
-C:\PersonalRepository\CRUDTest\Crud\obj\Debug\refactor.xml
-C:\PersonalRepository\CRUDTest\Crud\obj\Debug\postdeploy.sql
-C:\PersonalRepository\CRUDTest\Crud\obj\Debug\predeploy.sql
-C:\PersonalRepository\CRUDTest\Crud\obj\Debug\Crud.dll
-C:\PersonalRepository\CRUDTest\Crud\obj\Debug\Crud.pdb
