@@ -2,25 +2,17 @@
 
     $("form").submit(function (e) {
 
-        new CreateCandidate()
+        new CreateCandidate().Create();
 
         e.preventDefault();
     });
 
-    function DeleteCandidate() {
+    function CreateCandidate() {
 
         this.Create = function () {
             $("form").submit();
         }
-
-        this.SuccessfulDeletion = function(data){
-            alert("The candidae has been deleted");
-        }
-
-        this.FailedDeletion = function (xhr, data) {
-            alert("The candidae has been deleted");
-        }
-
+        
     }
 
 });
