@@ -15,7 +15,6 @@ namespace EohTest.Ui.Employment.Controllers
             return View(employee);
         }
 
-        [HttpPost]
         public ActionResult DismissEmployee(int employeId)
         {
             new Models.EmployeeModel().DismissEmployee(employeId);
