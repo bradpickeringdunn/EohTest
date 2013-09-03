@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ui", "Ui", "{9752C7F9-F9C8-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{31124BFC-B24B-4ED0-B5E4-50F7B86F34ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud", "Services\Crud\Crud\Crud.csproj", "{C351FC7D-6142-443D-92AC-1BA17F4803ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EohTest.Service.Crud", "Services\Crud\Crud\EohTest.Service.Crud.csproj", "{C351FC7D-6142-443D-92AC-1BA17F4803ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{0112ED6F-9AC5-4F00-B24F-E60143D2788C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EohTest.Service.Data", "Data\EohTest.Service.Data.csproj", "{0112ED6F-9AC5-4F00-B24F-E60143D2788C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employment", "Ui\Employment\Employment.csproj", "{49D9CC96-1CEF-4163-B0D9-F013DA67A52C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EohTest.Ui.Web", "Ui\Employment\EohTest.Ui.Web.csproj", "{49D9CC96-1CEF-4163-B0D9-F013DA67A52C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B8268A44-5E53-489D-A401-181F5F854EE4}"
 	ProjectSection(SolutionItems) = preProject
