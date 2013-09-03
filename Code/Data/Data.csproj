@@ -7,8 +7,8 @@
     <ProjectGuid>{0112ED6F-9AC5-4F00-B24F-E60143D2788C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Test.Data.Crud</RootNamespace>
-    <AssemblyName>Test.Data.Crud</AssemblyName>
+    <RootNamespace>EOFTest.Data.Crud</RootNamespace>
+    <AssemblyName>EOFTest.Data.Crud</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
