@@ -19,3 +19,5 @@ In order to build this project the database project needs to be published.
 
 7.  Press F5
 
+8.  If you wish to examine the elmah exceptions you can do this by typing /elmah.axd at the root of the project url.
+
